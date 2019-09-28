@@ -1,0 +1,13 @@
+<h1>Hi, <%= current_user.first_name %></h1>
+<h1>Homepage</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+
+<h1>Skill List</h1>
+<%= @skill.inspect%>
+
+
+<hr>
+
+<%= content_tag :p, class: "my content_tag" do %>
+	Hi, m in contant tag part
+<% end %>
